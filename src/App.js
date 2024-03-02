@@ -31,7 +31,7 @@ function App() {
       <input type="text" value={text} placeholder="Search for a word" onChange={(e) => setWord(e.target.value)}/>
       <button type="submit" >Search</button>
       </form>
-      <h4>Defination:</h4>
+      <h4>Definition:</h4>
       <p>{found? found.meaning:"Word not found in the dictionary."}</p>     
     </div>
   );
